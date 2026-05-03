@@ -439,7 +439,7 @@ Your numbers will differ in absolute terms (different hardware, version, configu
 
 ## Companion blog post
 
-[**When NUMERIC(18) Isn't Enough — A Vertica Field Guide for Eight Real Use Cases**](https://github.com/mogomo/vertica-numeric-benchmark/blob/main/When_NUMERIC_18_Isnt_Enough.pdf)
+**When NUMERIC(18) Isn't Enough — A Vertica Field Guide for Eight Real Use Cases**
 
 The blog post walks through eight common production scenarios involving Vertica's NUMERIC and FLOAT types, with empirical data sourced from the benchmark in this repository. If you're trying to decide which type to use, or whether to migrate an existing column, start there.
 
@@ -459,7 +459,9 @@ Both are documented as production-use-with-validation and are best evaluated in 
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE).
+MIT License — see [LICENSE](LICENSE).
+
+Copyright (c) 2026 Moshe Goldberg
 
 Contributions, issues, and observations from your own clusters are welcome. If you run this on a Vertica version or hardware configuration not listed in [What I see on my cluster](#what-i-see-on-my-cluster), open an issue with the final-report block and we'll add it to a community results section.
 
